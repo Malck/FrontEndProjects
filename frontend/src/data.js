@@ -17,15 +17,9 @@ const data = [
 	},
 	{
 		"id": "3a",
-		"title": "Studio de charme - Buttes Chaumont",
+		"title": "Project 3",
+		"url": "https://github.com/Malck", 
 		"cover": {galaxie},
-		
-		"description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
-		"host": {
-			"name": "Franck Maher",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
-		},
-		
 	}
 	
 ]

@@ -2,17 +2,21 @@ import "../styles/projects.css";
 import { Link } from "react-router-dom"
 import "../styles/card.css"
 
+import Header from "../components/Header"
+
 import data from "../data"
 import Card from "../components/Card"
 
 function Project() {
 
     return (
+        
         <div className="projects-main">
-            <div className="projects-react">
-                Projet react
-            </div>
-            
+
+            <Header/>
+
+            <h1>Integration maquette to website </h1>
+                
             <Link to="/nft" className="project-link1" title='NFT'>NFT link </Link>
 
             <Link to="/rating" className="project-link2" title='Rating'>Rating link </Link>
