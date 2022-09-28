@@ -17,13 +17,13 @@
     flex-direction: column;
     text-decoration: none;
 }
-.card-title{
-    color:#fff;
-    position: relative;
-    bottom: 70px;
+.card-title {
+    color: #fff;
+    position: absolute;
+    bottom: 115px;
     margin-left: 20px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 25px;
     max-width: 300px;
 }
 .card-image {

@@ -3,12 +3,14 @@ nav{
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 15px 25px;
     background: #fafafa;
     box-shadow: inset 0px -1px 0px #c5c5c6;
 }
 a.nav-icon {
     display: flex;
+    align-items: center;
 }
 .nav-icon span{
     font-size: 25px;
@@ -53,10 +55,11 @@ a.nav-icon {
 .navlinks-container a:hover::after{
     transform: scaleX(1);
 }
-
+/*
 .nav-authentification{
     margin-left:auto
 }
+*/
 .sign-btns button {
     font-size: 16px;
     min-width: 90px;
