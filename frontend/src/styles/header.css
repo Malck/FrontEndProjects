@@ -5,19 +5,17 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 15px 25px;
-    background: #fafafa;
-    box-shadow: inset 0px -1px 0px #c5c5c6;
+    background: #121212;
+    color:#F58A07;
+    box-shadow: inset 0px -1px 0px #F58A07 ;
 }
 a.nav-icon {
     display: flex;
     align-items: center;
 }
-.nav-icon span{
-    font-size: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-weight: 400;
-    color: #333;
+.header-title{
+    font-weight: 500;
+    font-size: 22px;
 }
 
 .nav-icon img{
@@ -31,7 +29,7 @@ a.nav-icon {
 
 .navlinks-container a {
     text-decoration: none;
-    color: #414141;
+    color: #F58A07 ;
     display: inline-block;
     margin: 0 10px;
     font-size: 16px;
@@ -49,7 +47,7 @@ a.nav-icon {
     height: 1px;
     transform: scaleX(0);
     transform-origin: left;
-    background: #333;
+    background: #F58A07 ;
     transition: transform 0.5s ease-out;
 }
 .navlinks-container a:hover::after{
@@ -60,22 +58,6 @@ a.nav-icon {
     margin-left:auto
 }
 */
-.sign-btns button {
-    font-size: 16px;
-    min-width: 90px;
-    padding: 10px 5px;
-    margin: 0 5px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-}
-.sign-btns button:nth-child(2){
-    background-color: #a2c8e7;
-
-}
-.sign-user{
-    display: none;
-}
 
 img{
     width: 20px;
@@ -162,14 +144,6 @@ img{
     .nav-authentification{
         order: 3;
         margin-left: 0;
-    }
-    .sign-btns{
-        display: none;
-    }
-    .sign-user{
-        display: block;
-        cursor: pointer;
-        border: none;
     }
 
 }

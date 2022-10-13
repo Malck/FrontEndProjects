@@ -15,15 +15,15 @@ export default function HomePage() {
 
             <Header/>
 
-            <h1 className="slogan">PAGE D'ACCUEIL DU SITE</h1>
-        
-            
-
+            <br />
             <details>
                 <summary>Dropdown</summary>
                 <p>drop1</p>
+                
                 <button>drop2</button>
             </details>
+
+            <br />
 
             <Link to="/project" className="project-link" title='Project'>Project: </Link>
 
