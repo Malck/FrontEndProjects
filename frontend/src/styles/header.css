@@ -17,6 +17,9 @@ a.nav-icon {
     font-weight: 500;
     font-size: 22px;
 }
+.header-title a{
+    color:#F58A07;
+}
 
 .nav-icon img{
     width: 30px;
