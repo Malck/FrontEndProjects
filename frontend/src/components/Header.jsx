@@ -10,7 +10,7 @@ export default function Header() {
         <a href="/" className="nav-icon"
         aria-label="visit homepage"
         aria-current="page">
-          <img src="finger.svg" alt="idea icon"/>
+          <img src="../assets/idea.png" alt="icon"/>
         </a>
 
     
@@ -18,7 +18,8 @@ export default function Header() {
             
             <div className="navlinks-container">
                 <a href="/" aria-current="page">Home</a>
-                <a href="/project">Projects</a>
+                <a href="/project">Websites</a>
+                <a href="/app" aria-current="page">Apps</a>
             </div>
 
         </div>

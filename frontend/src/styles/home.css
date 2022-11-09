@@ -1,5 +1,8 @@
 .homepage{
     font-family: "Roboto", sans-serif;
+    background: url(../assets/foret_aube.jpg) center / cover no-repeat;
+    min-height: 100vh;
+   
 }
 .homepage h1 {
     color: blue;
@@ -9,12 +12,32 @@ img.banner-image {
     width: 100%;
     object-fit: cover;
 }
-.project-link1{
-    color: black;
-    font-size: 20px;
+.project-link{
+    color: #F58A07;
+    font-size: 25px;
     font-weight: 500;
 }
 .project-link:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+
+.btn-first{
+    border: 2px solid white;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 20px;
+    width: 300px;
+    color:white;
+    cursor: pointer;
+}
+.btn-first:nth-child(1){
+    margin-right: 30px;
+}
+.btn-first:hover{
+    transition: all 0.3s ease-in-out;
+    background: #F58A07;
+    opacity: 0.8;
+    color: #030303;
 }
