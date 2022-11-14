@@ -16,13 +16,13 @@
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    
     border-radius: 10px;
+    position: relative;
 }
 .card-title {
     color: #121212;
     position: absolute;
-    bottom: 115px;
+    top: 50px;
     margin-left: 20px;
     font-weight: 500;
     font-size: 25px;

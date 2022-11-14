@@ -1,0 +1,64 @@
+.homepage{
+    font-family: "Roboto", sans-serif;
+    background: url(../../assets/arbre1.jpg) center / cover no-repeat;
+    min-height: 100vh;
+   
+}
+.container-first h1{
+    color: #F58A07;
+    padding: 50px 0;
+    margin-left: 50px;
+}
+img.banner-image {
+    height: 900px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-first{
+    border: 2px solid white;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 20px;
+    width: 300px;
+    color:white;
+    cursor: pointer;
+}
+.btn-first:nth-child(1){
+    margin-right: 30px;
+}
+.btn-first:hover{
+    transition: all 0.3s ease-in-out;
+    background: #F58A07;
+    opacity: 0.8;
+    color: #030303;
+}
+.lignes{
+    padding: 50px 0;
+    margin-left: 50px;
+    /*position: absolute;
+    top: 6%;
+    left: 5%;
+    */
+}
+.l1{
+    width: 250px;
+    height: 3px;
+    background: blue;
+    border-radius: 5px;
+
+}
+.l2{
+    width: 150px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.container-btns{
+    padding: 50px 0;
+    margin-left: 50px;
+}
