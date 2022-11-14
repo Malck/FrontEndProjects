@@ -1,9 +1,10 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-import Home from '../pages/Home'
-import Error from "../pages/Error.jsx"
-import Project from "../pages/Project"
+import Home from '../pages/Home/Home'
+import Error from "../pages/Error/Error"
+import Website from '../pages/Website/Website'
+
 import Nft from "../creation/Nft_Card/Nft"
 import Rating from '../creation/Rating_component/Rating'
 
@@ -16,7 +17,7 @@ function RouterPage() {
   
           <Route exact path="/" element={<Home />}/>
 
-          <Route path="/project" element={<Project/>}/>
+          <Route path="/website" element={<Website/>}/>
 
           <Route path="/nft" element={<Nft/>}/>
 

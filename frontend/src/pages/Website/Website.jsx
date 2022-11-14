@@ -1,13 +1,13 @@
-import "../styles/projects.css";
+import "./website.css";
 import { Link } from "react-router-dom"
-import "../styles/card.css"
+import "../../components/Card/card.css"
 
-import Header from "../components/Header"
+import Header from "../../components/Header/Header"
 
-import data from "../data"
-import Card from "../components/Card"
+import data from "../../data"
+import Card from "../../components/Card/Card"
 
-function Project() {
+function Website() {
 
     return (
         
@@ -15,7 +15,7 @@ function Project() {
 
             <Header/>
 
-            <h1>Integration maquette to website </h1>
+            <h1 className="website-h1">Integration maquette to website </h1>
                 
             <Link to="/nft" className="project-link1" title='NFT'>NFT link </Link>
 
@@ -36,4 +36,4 @@ function Project() {
        
     )
 }
-export default Project;
+export default Website;

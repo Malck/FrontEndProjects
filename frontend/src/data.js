@@ -12,7 +12,7 @@ const data = [
 		"id": "2a",
 		"title": "Rating component",
         "url": "https://github.com/Malck",
-		"cover": "${galaxie}",
+		"cover": `${galaxie}`,
         
 	},
 	{
