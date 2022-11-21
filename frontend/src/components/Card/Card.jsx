@@ -6,7 +6,7 @@ function Card({cover,title,id,url}) {
     return(
         <div className='card' >   
 
-            <a href={`${url}`}>            
+            <a href={`${url}`} target="blank">            
 
             <img className="card-image" src={cover} alt="cardImage" />  
 

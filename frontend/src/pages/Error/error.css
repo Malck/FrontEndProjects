@@ -1,18 +1,19 @@
 .error-page{
-    color:#FF6060;
+    color:#121212;
     position: relative;
     height: 1024px;
+    background: linear-gradient(60deg, #F58A07,#ff000067);
 }
 
 .number-of-error {
     display: flex;
     font-size: 288px;
     justify-content: center;
-    margin-top: 25px;
+    padding-top: 25px;
     margin-bottom: 30px;
 }
 .error h1{
-    margin: 0;
+    padding: 50px;
 }
 
 .error-message{
@@ -29,11 +30,10 @@
     text-align: center;
     cursor: pointer;
     font-weight: 500;
-    font-size: 18px;
-    margin-top: 180px;
-    margin-bottom: 100px;
+    font-size: 20px;
+    margin-top: 120px;
     text-decoration: underline;
-    color: #FF6060;
+    color: #121212;
 
 }
 

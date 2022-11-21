@@ -26,7 +26,7 @@ export default function HomePage() {
 
             <div className="container-btns">
                 <Link to="/website" className="project-link" title='Project'> <button className="btn-first b1">Website</button> </Link>
-                <Link to="/app" className="project-link" title='Project'> <button className="btn-first b2">Application</button> </Link>
+                <Link to="/application" className="project-link" title='Project'> <button className="btn-first b2">Application</button> </Link>
             </div>
 
         </div>

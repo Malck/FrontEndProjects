@@ -4,22 +4,34 @@ const data = [
 	{
 		"id": "1a",
 		"title": "NFT",
-        "url": "https://github.com/Malck",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+        "url": "https://nftcardfmentor.netlify.app",
+		"cover": `${galaxie}`,
 
 	},
 	{
 		"id": "2a",
 		"title": "Rating component",
-        "url": "https://github.com/Malck",
+        "url": "https://ratingcompfmentor.netlify.app",
 		"cover": `${galaxie}`,
         
 	},
 	{
 		"id": "3a",
-		"title": "Project 3",
-		"url": "https://github.com/Malck", 
-		"cover": {galaxie},
+		"title": "Order summary",
+		"url": "https://ordersummfmentor.netlify.app", 
+		"cover": `${galaxie}`,
+	},
+	{
+		"id": "4a",
+		"title": "Qr Code",
+		"url": "https://qrcodefmentor.netlify.app", 
+		"cover": `${galaxie}`,
+	},
+	{
+		"id": "5a",
+		"title": "Profil card",
+		"url": "https://profilfmentor.netlify.app", 
+		"cover": `${galaxie}`,
 	}
 	
 ]
