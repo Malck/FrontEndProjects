@@ -5,9 +5,7 @@ import Home from '../pages/Home/Home'
 import Error from "../pages/Error/Error"
 import Website from '../pages/Website/Website'
 
-import Nft from "../creation/Nft_Card/Nft"
-import Rating from '../creation/Rating_component/Rating'
-
+import Application from '../pages/Application/Application'
 
 
 function RouterPage() {
@@ -19,9 +17,7 @@ function RouterPage() {
 
           <Route path="/website" element={<Website/>}/>
 
-          <Route path="/nft" element={<Nft/>}/>
-
-          <Route path="/rating" element={<Rating/>}/>
+          <Route path="/application" element={<Application/>}/>
 
           <Route path="/*" element={<Error />}/>
             

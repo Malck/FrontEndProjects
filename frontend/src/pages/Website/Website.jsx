@@ -20,7 +20,7 @@ function Website() {
             <div className="cardall-page">
 
                 {data.map((elt) => (
-                    <div key={elt.id} className='location'>
+                    <div key={elt.id} className='somewebsite'>
                         <Card title={elt.title} cover={elt.cover} id={elt.id} url={elt.url}/>
                     </div>
                 ))}

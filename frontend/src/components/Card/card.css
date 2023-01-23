@@ -7,8 +7,8 @@
     gap: 3vw;
     padding: 4vw 3vw;
     margin: 0px 100px;
-    margin-bottom: 4vw;
-    background : #EEEEEE;
+    /*margin-bottom: 4vw;*/
+    /*background : #EEEEEE;*/
     border-radius: 25px;
 }
 .card{
@@ -20,9 +20,9 @@
     position: relative;
 }
 .card-title {
-    color: #121212;
+    color: #ffffff;
     position: absolute;
-    top: 50px;
+    top: 5px;
     margin-left: 20px;
     font-weight: 500;
     font-size: 25px;

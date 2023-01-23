@@ -8,7 +8,7 @@
     /*color: #F58A07;*/
     padding: 50px 0;
     margin-left: 50px;
-    background: linear-gradient(to right, #F58A07,#ff0000,blue, green,red);
+    background: linear-gradient(to right, #F58A07,#ff0000,#F58A07, #ff0000);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }

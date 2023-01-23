@@ -18,7 +18,7 @@ export default function Header() {
             <div className="navlinks-container">
                 <a href="/" aria-current="page">Home</a>
                 <a href="/website">Websites</a>
-                <a href="/app" aria-current="page">Apps</a>
+                <a href="/application" aria-current="page">Apps</a>
             </div>
 
         </div>
