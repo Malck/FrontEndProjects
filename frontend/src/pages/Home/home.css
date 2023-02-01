@@ -6,6 +6,7 @@
 }
 .container-first h1{
     /*color: #F58A07;*/
+    font-size: 3rem;
     padding: 50px 0;
     margin-left: 50px;
     background: linear-gradient(to right, #F58A07,#ff0000,#F58A07, #ff0000);
@@ -20,13 +21,13 @@ img.banner-image {
 }
 
 .btn-first{
-    border: 2px solid white;
+    border: 2px solid #ff6600;
     outline: none;
     background: transparent;
     font-size: 30px;
     padding: 20px;
     width: 300px;
-    color:white;
+    color:#ff6600;
     cursor: pointer;
 }
 .btn-first:nth-child(1){
@@ -48,7 +49,7 @@ img.banner-image {
     */
 }
 .l1{
-    width: 250px;
+   width: 250px;
     height: 3px;
     background: linear-gradient(to right, #F58A07,#ff6600,#ff0000);
     -webkit-text-fill-color: transparent;
@@ -62,6 +63,7 @@ img.banner-image {
     border-radius: 5px;
     position: relative;
     top: 20px;
+    margin-bottom: 30px;
 }
 
 .container-btns{
