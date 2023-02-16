@@ -15,7 +15,7 @@ function Website() {
 
             <Header/>
 
-            <h1 className="website-h1">Integration maquette to website </h1>
+            <h1 className="website-h1">Integration maquette to website</h1>
             
             <div className="cardall-page">
 

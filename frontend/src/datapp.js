@@ -1,7 +1,9 @@
-import galaxie from "../src/assets/fond-galaxie.jpg"
-import weatherimg from "../src/assets/Capture_weather.JPG"
+//import galaxie from "../src/assets/fond-galaxie.jpg"
+import weatherimg from "../src/assets/portfolioWeather.JPG"
 import pokemonimg from "../src/assets/Capture_pokemon.JPG"
 import interactiveimg from "../src/assets/Capture_interactive.JPG"
+import cardcorvetteimg from "../src/assets/Capture_card_corvette.JPG"
+import accordeonimg from "../src/assets/Capture_img_move.JPG"
 
 
 const datapp = [
@@ -25,15 +27,15 @@ const datapp = [
 	},
     {
 		"id": "4",
-		"title": "Pokemon randomizer",
-		"url": "https://pokerandomizer.netlify.app", 
-		"cover": `${galaxie}`,
+		"title": "Card effect",
+		"url": "https://cardeffectglow.netlify.app/", 
+		"cover": `${cardcorvetteimg}`,
 	},
     {
 		"id": "5",
-		"title": "Pokemon randomizer",
-		"url": "https://pokerandomizer.netlify.app", 
-		"cover": `${galaxie}`,
+		"title": "Accordéon animé",
+		"url": "https://accordeon-gsap.netlify.app/", 
+		"cover": `${accordeonimg}`,
 	}
 	
 	

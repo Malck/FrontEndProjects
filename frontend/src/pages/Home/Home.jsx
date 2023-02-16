@@ -5,13 +5,8 @@ import Header from "../../components/Header/Header";
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
-//import data from "../data"
-//import Card from "../components/Cards"
-
 export default function HomePage() {
   const titreSpan = useRef(null);
-  const titreSpan2 = useRef(null);
-  const titreSpan3 = useRef(null);
   const btns = useRef(null);
   const l1 = useRef(null);
   const l2 = useRef(null);
@@ -21,10 +16,8 @@ export default function HomePage() {
 
     TL.from(l1.current, { duration: 1,width: 0, ease: "Power2.easeIn"}).to(l1.current, { width: 250,})
       
-    .from(l2.current, { duration: 1, width: 0, ease: "Power2.easeIn" }).to(l2.current, { width: 150,})
+    .from(l2.current, { duration: 2, width: 0, ease: "Power2.easeIn" }).to(l2.current, { width: 150,})
     .from(titreSpan.current, {duration: 0.5,opacity: 0, ease: "Power4.easeOut",}).to(titreSpan.current, {opacity: 1})
-    .from(titreSpan2.current, {opacity: 0, ease: "Power4.easeOut",}).to(titreSpan2.current, {opacity: 1})
-    .from(titreSpan3.current, {opacity: 0, ease: "Power4.easeOut",}).to(titreSpan3.current, {opacity: 1})
     .from(btns.current, {duration: 1,opacity: 0, ease: "Power0.easeIn",}).to(btns.current, {opacity: 1})
 
     
@@ -43,26 +36,23 @@ export default function HomePage() {
 
       <div className="container-first">
         <h1>
-          <span ref={titreSpan}>Discover</span>
-          <span ref={titreSpan2}> my </span>
-          <span ref={titreSpan3}>projects</span>
+          <span ref={titreSpan}>Discover my projects</span>
         </h1>
       </div>
 
       <div ref={btns} className="container-btns">
         <Link to="/website" className="project-link" title="Project">
           {" "}
-          <button className="btn-first b1">Website</button>{" "}
+          <button className="btn-first b1">Websites</button>{" "}
         </Link>
         <Link to="/application" className="project-link" title="Project">
           {" "}
-          <button className="btn-first b2">Application</button>{" "}
+          <button className="btn-first b2">Lab</button>{" "}
         </Link>
       </div>
     </div>
   );
 
-  /*ici pour le js ? */
 }
 
 /*<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>*/
