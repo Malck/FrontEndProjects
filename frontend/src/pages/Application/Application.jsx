@@ -13,7 +13,7 @@ function Application() {
 
             <Header/>
 
-            <h1 className="website-h1">Explore divers applications or effects that i made </h1>
+            <h1 className="website-h1">Explore divers applications or effects</h1>
                 
             
             <div className="cardall-page">

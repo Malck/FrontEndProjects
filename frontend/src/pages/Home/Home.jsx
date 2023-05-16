@@ -13,15 +13,19 @@ export default function HomePage() {
 
   useEffect(() => {
     const TL = gsap.timeline({ paused: true });
+    const TLS = gsap.timeline({ paused: true });
 
     TL.from(l1.current, { duration: 1,width: 0, ease: "Power2.easeIn"}).to(l1.current, { width: 250,})
+      .from(btns.current, {duration: 1.5,opacity: 0, ease: "Power0.easeIn",}).to(btns.current, {opacity: 1})
       
-    .from(l2.current, { duration: 2, width: 0, ease: "Power2.easeIn" }).to(l2.current, { width: 150,})
-    .from(titreSpan.current, {duration: 0.5,opacity: 0, ease: "Power4.easeOut",}).to(titreSpan.current, {opacity: 1})
-    .from(btns.current, {duration: 1,opacity: 0, ease: "Power0.easeIn",}).to(btns.current, {opacity: 1})
+    TLS.from(titreSpan.current, {duration: 1,opacity: 0, ease: "Power4.easeOut",}).to(titreSpan.current, {opacity: 1})
+       .from(l2.current, { duration: 0.5, width: 0, ease: "Power2.easeIn" }).to(l2.current, { width: 150,})
+
+    
 
     
       TL.play();
+      TLS.play();
 
   }, []);
 

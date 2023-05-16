@@ -4,6 +4,7 @@ import pokemonimg from "../src/assets/Capture_pokemon.JPG"
 import interactiveimg from "../src/assets/Capture_interactive.JPG"
 import cardcorvetteimg from "../src/assets/Capture_card_corvette.JPG"
 import accordeonimg from "../src/assets/Capture_img_move.JPG"
+import boxtoggleimg from "../src/assets/Capture_box_toggle.JPG"
 
 
 const datapp = [
@@ -36,6 +37,12 @@ const datapp = [
 		"title": "Accordéon animé",
 		"url": "https://accordeon-gsap.netlify.app/", 
 		"cover": `${accordeonimg}`,
+	},
+	{
+		"id": "5",
+		"title": "Box-toggle",
+		"url": "https://gsap-box-toggle.netlify.app/", 
+		"cover": `${boxtoggleimg}`,
 	}
 	
 	
